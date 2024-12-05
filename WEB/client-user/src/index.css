@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+.hide-display {
+  display: none;
+}
+
+section.landing-page {
+  background: #174666;
+  overflow: hidden;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 10% auto;
+}
+
+nav.navbar-landing {
+  background-color: white;
+  height: 3.5em;
+  color: #174666;
+}
+
+nav.navbar-landing a {
+  color: #174666;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav.navbar-landing a:hover {
+  color: rgba(77, 107, 172, 0.808);
+}
+
+div.landing-content {
+  display: grid;
+  grid-template-columns: 55% auto;
+}
+
+div.img-landing {
+  display: flex;
+  align-items: center;
+}
+
+div.welcome-content{
+  color: white;
+  display: grid;
+  text-align: justify;
+  margin: auto 5em auto 2em;
+}
+
+div.title-landing {
+  display: flex;
+  align-items: flex-end;
+}
+
+section#nav, div.container-fluid {
+  padding: 0;
+}
+
+nav.nav-global {
+  background-color: #174666;
+  height: 3.5em;
+  color: white;
+}
+
+nav.nav-global a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav.nav-global a:hover {
+  color: rgba(77, 107, 172, 0.808);
+}
+
+div.login-page {
+  border: 1px solid #2d2d2d;
+  background-color: #174666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18vh;
+  border-radius: 7px;
+  height: 400px;
+  padding: 25px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.title-login {
+  color: white;
+  text-align: center;
+}
+
+div.form-login {
+  background-color: white;
+  padding: 25px;
+  border-radius: 3px;
+}
+
+section.data-entity {
+  display: grid;
+  text-decoration: none;
+  grid-template-columns: 35% 65%;
+  margin-top: 5vh;
+}
+
+div.card {
+  width: 22rem;
+}
+
+li.list-group-item {
+  cursor: pointer;
+}
+
+div.card-detail {
+  width: 100%;
+}
+
+div.card-jobs {
+  margin: 12vh 5em auto 6em;
+}
+
+div.card-data {
+  margin: 12vh 6em auto auto;
+  overflow: auto;
+  max-height: 100vh;
+  width: 57vw;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li.title-list-group {
+  text-align: center;
+  font-size: 100%;
+  padding: 2.5vh;
+  border-bottom: 1px solid #17466636;
+}
+
+div.company-content {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  height: 100%;
+}
+
+div.img-company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.name-company {
+  border-bottom: 1px solid rgb(0 0 0 / 18%);
+}
+
+div.name-company p {
+  padding-left: 15px;
+  margin: 0;
+}
+
+div.extra-information p {
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+
+div.loading-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.discover-page {
+  display: grid;
+  text-decoration: none;
+  grid-template-columns: 33% 33% 33%;
+  margin-top: 50px;
+}
+
+img.card-company-logo {
+  height: 200px;
+}
+
+div.container-discover {  
+  margin-top: 17vh;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+div.title-discover {
+  border-bottom: 1px solid rgb(0 0 0 / 18%);
+}
+
+div.cardd:hover {
+  cursor: pointer;
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+a.navbar-brand {
+  padding-left: 1em;
+}
+
+div.filler-job {
+  text-align: center;
+}
+
+img.image-job {
+  border-radius: 10px;
+  padding: 25px;
+}

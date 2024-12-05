@@ -1,0 +1,125 @@
+{
+  "User": [
+    {
+      "username": "admin",
+      "email": "admin@mail.com",
+      "password": "admin",
+      "role": "Admin",
+      "PhoneNumber": "082108210821",
+      "Address": "Indonesia"
+    },
+    {
+      "username": "user1",
+      "email": "user1@mail.com",
+      "password": "user1",
+      "role": "User",
+      "PhoneNumber": "082108210821",
+      "Address": "United Kingdom"
+    },
+    {
+      "username": "user2",
+      "email": "user2@mail.com",
+      "password": "user2",
+      "role": "User",
+      "PhoneNumber": "082108210821",
+      "Address": "Japan"
+    }
+  ],
+  "Company": [
+    {
+      "name": "Amajon",
+      "companyLogo": "https://cdn.discordapp.com/attachments/1007286935926095954/1021311977785659412/unknown.png",
+      "location": "Global",
+      "email": "amajon@mail.com",
+      "description": "we are amajon, buy anything from us"
+    },
+    {
+      "name": "HOLOLEP",
+      "companyLogo": "https://cdn.discordapp.com/attachments/1007286935926095954/1021312277435134052/unknown.png",
+      "location": "Global",
+      "email": "hololep@mail.com",
+      "description": "hololep totally more than idol vtuber"
+    },
+    {
+      "name": "NIJISIJI",
+      "companyLogo": "https://cdn.discordapp.com/attachments/1007286935926095954/1021312530943053926/unknown.png",
+      "location": "Global",
+      "email": "nijisiji@mail.com",
+      "description": "nijisiji number siji around the world"
+    }
+  ],
+  "Job": [
+    {
+      "title": "vtuber Talent",
+      "description": "anything that vtuber related",
+      "CompanyId": 2,
+      "AuthorId": 3,
+      "jobType": "full time"
+    },
+    {
+      "title": "vtuber Talent",
+      "description": "anything that vtuber related",
+      "CompanyId": 3,
+      "AuthorId": 2,
+      "jobType": "full time"
+    },
+    {
+      "title": "backstage staff",
+      "description": "staff producer yadayadayada",
+      "CompanyId": 3,
+      "AuthorId": 2,
+      "jobType": "part time"
+    },
+    {
+      "title": "delivery boy",
+      "description": "delivery via car yadayadayada",
+      "CompanyId": 1,
+      "AuthorId": 3,
+      "jobType": "part time"
+    },
+    {
+      "title": "front office",
+      "description": "just classic front office",
+      "CompanyId": 1,
+      "AuthorId": 2,
+      "jobType": "full time"
+    }
+  ],
+  "Skills": [
+    {
+      "JobId": 1,
+      "name": "English Speaking",
+      "level": "advanced"
+    },
+    {
+      "JobId": 1,
+      "name": "Japanese Speaking",
+      "level": "intermediate"
+    },
+    {
+      "JobId": 2,
+      "name": "English Speaking",
+      "level": "advanced"
+    },
+    {
+      "JobId": 2,
+      "name": "Japanese Speaking",
+      "level": "intermediate"
+    },
+    {
+      "JobId": 3,
+      "name": "Video editing",
+      "level": "advanced"
+    },
+    {
+      "JobId": 4,
+      "name": "driving",
+      "level": "intermediate"
+    },
+    {
+      "JobId": 5,
+      "name": "front office stuff",
+      "level": "advanced"
+    }
+  ]
+}

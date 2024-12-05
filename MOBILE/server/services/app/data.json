@@ -1,0 +1,199 @@
+{
+  "User": [
+    {
+      "_id": "6336361194e6204897329e88",
+      "username": "admin",
+      "email": "admin@mail.com",
+      "password": "admin",
+      "role": "Admin",
+      "phoneNumber": "021928739872",
+      "address": "admin"
+    },
+    {
+      "_id": "6336363894e6204897329e89",
+      "username": "isassan",
+      "email": "isassan@mail.com",
+      "password": "isassan",
+      "role": "Admin",
+      "phoneNumber": "08210821082",
+      "address": "Indonesia"
+    },
+    {
+      "_id": "6336365594e6204897329e8a",
+      "username": "omori",
+      "email": "omori@mail.com",
+      "password": "omori",
+      "role": "Admin",
+      "phoneNumber": "07120712398",
+      "address": "Indonesia"
+    },
+    {
+      "_id": "6336367894e6204897329e8b",
+      "username": "lexternal",
+      "email": "lexternal@mail.com",
+      "password": "lexternal",
+      "role": "Admin",
+      "phoneNumber": "02848128965",
+      "address": "United Kingdom"
+    },
+    {
+      "_id": "6336369894e6204897329e8c",
+      "username": "Arthur Pendragon",
+      "email": "arth.p@mail.com",
+      "password": "arthur",
+      "role": "Admin",
+      "phoneNumber": "02851209825",
+      "address": "Britania"
+    },
+    {
+      "_id": "633639d1e6690f7e67c734e7",
+      "username": "Mordred Pendragon",
+      "email": "mordred.p@mail.com",
+      "password": "mordred",
+      "role": "Admin",
+      "phoneNumber": "019287509182",
+      "address": "Britania"
+    },
+    {
+      "_id": "6336cbe8f3e354a117aba1ad",
+      "username": "Malenia Blade of Miquella ",
+      "email": "melenia@mail.com",
+      "password": "malenia",
+      "role": "Admin",
+      "phoneNumber": "082419871",
+      "address": "Elphael, Brace of the Haligtree"
+    }
+  ],
+  "Company": [
+    {
+      "name": "Amajon",
+      "companyLogo": "https://cdn.discordapp.com/attachments/1007286935926095954/1023043615511040140/unknown.png",
+      "location": "Global",
+      "email": "amajon@mail.com",
+      "description": "we are amajon, buy anything from us",
+      "companyLink": "https://www.amazon.com/"
+    },
+    {
+      "name": "Hololep",
+      "companyLogo": "https://cdn.discordapp.com/attachments/1007286935926095954/1023042322386145370/unknown.png",
+      "location": "Japan",
+      "email": "hololep@mail.com",
+      "description": "VTuber agency from Japan that makes fans go wild, the world over!  'Hololive Project'",
+      "companyLink": "https://en.hololive.tv"
+    },
+    {
+      "name": "Nijisiji",
+      "companyLogo": "https://cdn.discordapp.com/attachments/1007286935926095954/1023043119605882950/unknown.png",
+      "location": "Japan",
+      "email": "nijisiji@mail.com",
+      "description": "Managed by ANYCOLOR Inc. (known as Ichikara Inc. until 16 May 2021), NIJISANJI started in Japan in February 2018 as one of the first major VTuber agencies. Their focus on livestreams set its members apart from other early VTubers",
+      "companyLink": "https://www.anycolor.co.jp/en"
+    },
+    {
+      "name": "TESKLA",
+      "companyLogo": "https://cdn.discordapp.com/attachments/1007286935926095954/1023040112247980052/unknown.png",
+      "location": "United States",
+      "email": "teskla@mail.com",
+      "description": "Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and businesses.",
+      "companyLink": "https://www.tesla.com"
+    },
+    {
+      "name": "Zhopee Pte. Ltd.",
+      "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Shopee.svg",
+      "location": "Singapoer",
+      "email": "zhopee@mail.com",
+      "description": "Shopee Pte. Ltd. (Shopee) is a Singaporean multinational technology company which specialises in e-commerce. A subsidiary of Sea Limited, Shopee was first launched in Singapore in 2015, and later expanded its reach abroad",
+      "companyLink": "https://shopee.co.id"
+    },
+    {
+      "name": "PT RUKOPEDIA",
+      "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Tokopedia.svg",
+      "location": "Indonesia",
+      "email": "rukopedia@mail.com",
+      "description": "PT Tokopedia is an Indonesian e-commerce company.[2] Tokopedia is a subsidiary of a new holding company called GoTo, following a merger with Gojek on 17 May 2021",
+      "companyLink": "https://www.tokopedia.com/"
+    },
+    {
+      "name": "TOSOFTWARE, INC",
+      "companyLogo": "https://cdn.discordapp.com/attachments/1007286935926095954/1023041104955850812/unknown.png",
+      "location": "Japan",
+      "email": "tosoftware@mail.com",
+      "description": "FromSoftware, Inc. is a Japanese video game development company founded in November 1986. The company is best known for their Armored Core and Dark Souls series, with Demon's Souls, Bloodborne, Sekiro, and Elden Ring being closely related to the latte",
+      "companyLink": "https://www.fromsoftware.jp/ww/"
+    }
+  ],
+  "Job": [
+    {
+      "title": "Vtuber Talent",
+      "description": "anything that Vtuber related",
+      "companyId": 2,
+      "userMongoId": "6336361194e6204897329e88",
+      "jobType": "full time"
+    },
+    {
+      "title": "Vtuber Talent",
+      "description": "anything that Vtuber related",
+      "companyId": 3,
+      "userMongoId": "6336363894e6204897329e89",
+      "jobType": "full time"
+    },
+    {
+      "title": "backstage staff",
+      "description": "staff producer yadayadayada",
+      "companyId": 3,
+      "userMongoId": "6336365594e6204897329e8a",
+      "jobType": "part time"
+    },
+    {
+      "title": "delivery boy",
+      "description": "delivery via car yadayadayada",
+      "companyId": 1,
+      "userMongoId": "6336367894e6204897329e8b",
+      "jobType": "part time"
+    },
+    {
+      "title": "front office",
+      "description": "just classic front office",
+      "companyId": 1,
+      "userMongoId": "6336369894e6204897329e8c",
+      "jobType": "full time"
+    }
+  ],
+  "Skills": [
+    {
+      "jobId": 1,
+      "name": "English Speaking",
+      "level": "advanced"
+    },
+    {
+      "jobId": 1,
+      "name": "Japanese Speaking",
+      "level": "intermediate"
+    },
+    {
+      "jobId": 2,
+      "name": "English Speaking",
+      "level": "advanced"
+    },
+    {
+      "jobId": 2,
+      "name": "Japanese Speaking",
+      "level": "intermediate"
+    },
+    {
+      "jobId": 3,
+      "name": "Video editing",
+      "level": "advanced"
+    },
+    {
+      "jobId": 4,
+      "name": "driving",
+      "level": "intermediate"
+    },
+    {
+      "jobId": 5,
+      "name": "front office stuf",
+      "level": "advanced"
+    }
+  ]
+}
